@@ -1,0 +1,53 @@
+    img{
+        display: block;
+        margin: auto;
+        width: 800px;
+        height: 500px;
+    }
+            p{
+              
+                color: rgb(255, 255, 255);
+            font-size: x-large;
+           text-shadow: 3px 3px black;
+            }
+            body {
+            background-image:url(https://s2.glbimg.com/RbgmWR1f6vIhwfXkM6FdhHRpTUk=/e.glbimg.com/og/ed/f/original/2019/12/30/sydney-opera-house-354375_1920.jpg);
+            background-size: cover;
+           
+            }
+            #titulo{
+                text-shadow: 3px 2px black;
+                color: white;
+                border: 6px whitesmoke solid;
+                background-image:url(https://image.shutterstock.com/image-vector/australian-flag-wind-260nw-53347735.jpg);
+                background-size: cover;
+                padding: 20px;
+            }
+            h1 {
+             color: white;
+                text-align: center;
+                text-shadow: 2px 2px black;
+               
+            }
+            h2{
+                text-align: left;
+                
+                color:rgb(0, 47, 255) ;
+           
+               text-shadow: 1px 1px white;
+            }
+            .subtitulo{
+                text-shadow: 1px 1px white;
+            }
+            h4{
+            color: black;
+            font-size:x-large;
+            }
+            .batata{
+                text-size-adjust: small;
+            color: white;
+                text-shadow:2px 2px black;
+
+            }
+    
+        </style>
