@@ -1,2 +1,2 @@
 # TrabalhodeWeb
-Primeiro trabalho de web, assunto: &ltAustralia&gt
+Primeiro trabalho de web, assunto: Australia
