@@ -1,11 +1,15 @@
 * {
     box-sizing: border-box;
 }
-img{
+.images{
     display: block;
     margin: 20px auto;
     width: 50%;
     border: 2px solid black;
+}
+#imageMaped{
+    margin: 20px auto;
+    display: block;
 }
 p,li{ 
     font-family: system-ui;
