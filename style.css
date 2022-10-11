@@ -8,19 +8,46 @@ body{
     margin: 0px;
 }
 nav{
-    width: 100%;
-    background-color: red;
+    background-color: gray;
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
+}
+#logo{
+    text-shadow: red 2px 2px;
+    font-size: 5vh;
+    width: 20%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    background-color: blue;
+    padding: 2%;
+    border-radius: 50%;
+    user-select: none;
+    font-family: 'Silkscreen', cursive;
+    letter-spacing: -5px;
+}
+.navHalfs{
+    display: flex;
+    justify-content: space-around;
+    width: 500%;
+}
+.navHalfs:nth-child(1){
+    justify-content: left;
+    margin-left: 20px;
 }
 .navBtn{
     width: 25%;
-    padding: 20px 0px;
-    background-color: white;
+    padding: 30px 0px;
+    background-color: gray;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     text-decoration: none;
     color: black;
+    transition: 150ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navBtn:hover{
     background-color: black;
@@ -40,19 +67,14 @@ p,li,.links{
     font-family: system-ui;
     color: rgb(255, 255, 255);
     font-size: x-large;
-    text-shadow: 2px 1px black; 
+    text-shadow: 2px 1px black;
 }
 p{
     text-indent: 70px;
 }
 #titulo{
     color: red;
-    border: 1px whitesmoke solid;
     border-radius: 10px;
-    background-image:url(images/austrália2.webp);
-    background-size: cover;
-    padding: 10px 20px;
-    width: 95%;
     margin: 20px auto;
 }
 span{color: blue;}
