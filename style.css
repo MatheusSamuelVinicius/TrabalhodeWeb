@@ -1,6 +1,31 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background-image: url(images/austrália1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBtn{
+    width: 25%;
+    padding: 20px 0px;
+    background-color: white;
+    text-align: center;
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+}
+.navBtn:hover{
+    background-color: black;
+    color: white;
+}
 .images{
     display: block;
     margin: 20px auto;
@@ -11,17 +36,14 @@
     margin: 20px auto;
     display: block;
 }
-p,li{
+p,li,.links{
     font-family: system-ui;
     color: rgb(255, 255, 255);
     font-size: x-large;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px black; 
 }
-body {
-    background-image: url(images/austrália1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+p{
+    text-indent: 70px;
 }
 #titulo{
     color: red;
@@ -31,70 +53,44 @@ body {
     background-size: cover;
     padding: 10px 20px;
     width: 95%;
-    margin: auto;
+    margin: 20px auto;
 }
-span{
-    color: blue;
-}
-h1 {
+span{color: blue;}
+h1{
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
 }
-h2{
+.instructions,.subtitulo{
     font-family: system-ui;
-    border-bottom: 6px solid rgb(255, 0, 0);
+    border-bottom: 6px solid red;
     background-color: rgba(59, 53, 109, 0.192);
-    color:rgb(255, 255, 255) ;
-    text-shadow: 1px 1px black;
-}
-.subtitulo{
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow:2px 2px black;
+    text-indent: 20px;
 }
 h4{
-    font-family:Helvetica, sans-serif, Arial;
+    font-family: Helvetica, sans-serif, Arial;
     text-shadow: 1px 1px black;
     color: rgb(255, 255, 255);
     font-size: x-large;
+    text-indent: 70px;
 }
-.batata{
-    text-size-adjust: small;
-    color: white;
-    text-shadow:2px 2px black;
-}
-a{
-    font-family: system-ui;
-    color: white;
-    text-shadow: 1px black;
-}
-#referencia{
-    color: black;
-}
-.visto{
+.vistos{
+    font-size: 5vh;
     text-align: center;
-    font-family:system-ui;
+    font-family: system-ui;
     color: rgb(207, 207, 207);
     text-shadow: 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px black solid;
 }
-h3{
+i{
+    font-size: 4vh;
+    margin-left: 10px;
     color: white;
-    text-shadow: 2px 2px black;
-    background-color: rgba(0, 0, 0, 0.534);
-    border-bottom: 3px solid grey;
+    text-shadow: 1px 1px black;
 }
 @media screen and (max-width: 600px){
-    img{
-        width: 90%;
-}
-@media screen and (max-width: 450px){
-    @keyframes pato {
-        0%{transform: rotate(0deg); width: 100%;}
-        50%{transform: rotate(180deg);width: 130%;}
-        100%{transform: rotate(360deg);width: 100%;}
-    }
-    #jumpscare{
-        animation: pato 1500ms infinite alternate linear;
-    }
-
+    img{ width: 90%;}
 }
