@@ -56,7 +56,7 @@ nav{
 .images{
     display: block;
     margin: 20px auto;
-    width: 50%;
+    width: 30%;
     border: 2px solid black;
 }
 #imageMaped{
@@ -108,23 +108,44 @@ h4{
     border: 2px black solid;
 }
 #form{
-  color: black;
   text-shadow: none;
   border-bottom: 2px black solid;
 }
 li,p{
   margin-left: 20px;
 }
+.questions{
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+.botão{
+  color: #004C68;
+  background-color: #FF8B29;
+  width: 20%;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* FORMULÁRIO */
+
 form{
-  width: 50%;
-  margin: 75px auto;
-  background: rgba(255,255,255, 0.9);
+  width:100%;
+  height: 100%;
+  margin: auto;
+  background: rgba(37,40,233, 0.4);
+  color: red;
   display: flex;
   justify-content: space-between;
   flex-flow: column;
   padding: 20px 10px;
-  border: solid black 2px;
-  border-radius: 20px;
+  margin-bottom: 20px;
 }
 .row{
   display: flex;
