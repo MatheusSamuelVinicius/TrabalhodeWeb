@@ -5,32 +5,21 @@ body{
     background-image: url(images/austrália1.jpg);
     background-attachment: fixed;
     background-size: cover;
-    margin: 8px;
+    margin: 0px;
 }
+
+
+/* NAV */
 nav{
     background-color: #94D1FF;
     align-items: center;
     display: flex;
     justify-content: right;
 }
-#logo{
-    text-shadow: red 2px 2px;
-    font-size: 5vh;
-    width: 20%;
-    display: flex;
-    margin: 0px;
-    justify-content: center;
-    background-color: blue;
-    padding: 2%;
-    border-radius: 50%;
-    user-select: none;
-    font-family: 'Silkscreen', cursive;
-    letter-spacing: -5px;
-}
 .navHalfs{
     display: flex;
     justify-content: space-around;
-    width: 500%;
+    width: 50%;
 }
 .navHalfs:nth-child(1){
     justify-content: left;
@@ -53,6 +42,9 @@ nav{
     background-color: #1B9DFF;
     color: white;
 }
+
+
+
 .images{
     display: block;
     margin: 20px auto;
@@ -74,10 +66,11 @@ p{
 }
 #titulo{
     color: red;
-    border-radius: 10px;
     margin: 20px auto;
 }
-span{color: blue;}
+span{
+  color: blue;
+}
 h1{
     color: white;
     text-align: center;
@@ -111,26 +104,8 @@ h4{
   text-shadow: none;
   border-bottom: 2px black solid;
 }
-li,p{
+li,p,h4{
   margin-left: 20px;
-}
-.questions{
-  color: white;
-  text-align: center;
-  font-size: 32px;
-}
-.botão{
-  color: #004C68;
-  background-color: #FF8B29;
-  width: 20%;
-  padding: 10px;
-  font-size: 30px;
-  border-radius: 30px;
-  text-decoration: none;
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 /* FORMULÁRIO */
