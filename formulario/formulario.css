@@ -1,0 +1,59 @@
+body,html{
+  width: 100%;
+  height: 100%;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 4.5vh;
+}
+::selection {
+  color: gray;
+  background: black;
+}
+form{
+  width:100vw;
+  height: 100vh;
+  background: rgba(40,40,40, 0.5);
+  display: flex;
+  flex-flow: column;
+  padding: 10px 0px;
+}
+#questionsDiv{
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+.row{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+label{
+  font-size: 3vh;
+  color: white;
+  margin-bottom: 15px;
+}
+textarea{
+  width: 40%;
+  font-size: 2vh;
+  border-radius: 8px;
+}
+input[type = 'submit']{
+  padding: 20px 10%;
+  margin: 0px auto;
+  border-radius: 20px;
+  font-size: 3vh;
+  background: #43BF1B;
+  color: white;
+  transition: 100ms;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+input[type = 'submit']:hover{
+  background: #2F8F0F;
+}
