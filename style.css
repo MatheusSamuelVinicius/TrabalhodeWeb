@@ -43,8 +43,8 @@ nav{
     justify-content: center;
 }
 .actualPage{
-    background-color: #10029a; 
-    cursor: auto;  
+    background-color: #10029a;
+    cursor: auto;
 }
 .navBtn:hover{
     background-color: #10029a;
@@ -52,37 +52,48 @@ nav{
 #logo{
     height: 100%;
 }
-
+#logoText{
+    font-size: 5vh;
+    color: #9DDEFF;
+}
+#mainText{
+    color: red;
+    font-size: 4.5vh;
+    text-shadow: 2px 2px black;
+}
 
 h1{
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
+    font-size: 4vh;
 }
 strong,p,li,.embassy{
     color: white;
-    font-size: 3.5vh;
+    font-size: 2.5vh;
     text-shadow: 2px 1px black;
     font-family: system-ui;
 }
 strong{
     font-family: Helvetica, sans-serif, Arial;
     text-shadow: 1px 1px black;
-    font-size: 4vh;
     display: block;
     margin: 0px 25px;
 }
 p,strong{
-    text-indent: 50px;
+    text-indent: 60px;
 }
 p,li{
     margin: 0px 20px;
+}
+p{
+    margin: 0px 0px 50px 20px;
 }
 .images,
 #imageMaped{
     display: block;
     margin: 30px auto;
-    width: 30vw;
+    width: 35vw;
     border: 1px solid black;
 }
 .subtitulo{
@@ -94,7 +105,7 @@ p,li{
     text-indent: 20px;
 }
 .vistos{
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     font-family: system-ui;
     color: rgb(207, 207, 207);
@@ -104,7 +115,7 @@ p,li{
 }
 
 @media screen and (max-width: 600px){
-    .images{ 
+    .images{
         width: 50vw;
     }
     strong,.subtitulo,.vistos{
