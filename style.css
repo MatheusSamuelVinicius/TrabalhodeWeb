@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 70%;
-    height: 12.5vh;
+    height: 10vh;
 }
 .navHalfs:nth-child(1){
     width: 30%;
